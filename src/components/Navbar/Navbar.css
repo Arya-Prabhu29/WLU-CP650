@@ -9,12 +9,6 @@
   --transition-speed: 0.3s;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
   background-color: var(--primary-bg);
   height: var(--navbar-height);
@@ -37,7 +31,7 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   padding: 0 24px;
   margin: 0 auto;
 }
@@ -183,5 +177,11 @@
 
   .nav-links::after {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none !important;
   }
 }
