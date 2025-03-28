@@ -33,12 +33,12 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home home={t("home")} />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/register user" element={<Register />} />
+          <Route path="/register-user" element={<Register />} />
           <Route
-            path="/register business"
+            path="/register-business"
             element={<BusinessRegistrationForm />}
           />
-          <Route path="/register event" element={<EventsForm />} />
+          <Route path="/register-event" element={<EventsForm />} />
           <Route path="/main" element={<MainHomePage />} />
         </Routes>
       </div>
