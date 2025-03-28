@@ -14,7 +14,7 @@ import {
 const navItems = [
   {
     title: "Home",
-    link: "main",
+    link: "/main",
     icon: <FaHome />,
   },
   {
@@ -29,32 +29,32 @@ const navItems = [
   },
   {
     title: "Profile",
-    link: "main",
+    link: "/main",
     icon: <CgProfile />,
   },
   {
     title: "Language",
-    link: "main",
+    link: "/main",
     icon: <FaLanguage />,
   },
   {
     title: "Notifications",
-    link: "main",
+    link: "/main",
     icon: <IoIosNotifications />,
   },
   {
     title: "Bookmarks",
-    link: "main",
+    link: "/main",
     icon: <FaBookmark />,
   },
   {
     title: "Settings",
-    link: "main",
+    link: "/main",
     icon: <IoMdSettings />,
   },
   {
     title: "Help",
-    link: "main",
+    link: "/main",
     icon: <IoIosHelpCircle />,
   },
 

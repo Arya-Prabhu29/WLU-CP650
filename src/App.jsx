@@ -9,6 +9,7 @@ import BusinessRegistrationForm from "./components/BusinessRegistration";
 import EventsForm from "./components/EventsRegistration";
 import Navbar from "./components/Navbar";
 import MainHomePage from "./components/MainHome";
+import ProductDetail from "./components/ProductDetail";
 
 const LoginPage = () => {
   const { t } = useTranslation();
@@ -40,6 +41,7 @@ const App = () => {
           />
           <Route path="/register-event" element={<EventsForm />} />
           <Route path="/main" element={<MainHomePage />} />
+          <Route path="/products/:productId" element={<ProductDetail />} />
         </Routes>
       </div>
     </Router>

@@ -121,18 +121,20 @@ const FilterableCardList = () => {
         {filteredCards.length > 0 ? (
           filteredCards.map((card) => (
             <div key={card.id} className="card">
-              <div>
-                <h3>{card.title}</h3>
-                <p>{card.content}</p>
-                <span className="card-category">{card.category}</span>
-              </div>
-              <div>
-                <img
-                  src={card.thumbnailURL}
-                  alt={card.title}
-                  className="card-image"
-                />
-              </div>
+              <a href={`/products/${card.id}`}>
+                <div>
+                  <h3>{card.title}</h3>
+                  <p>{card.content}</p>
+                  <span className="card-category">{card.category}</span>
+                </div>
+                <div>
+                  <img
+                    src={card.thumbnailURL}
+                    alt={card.title}
+                    className="card-image"
+                  />
+                </div>
+              </a>
             </div>
           ))
         ) : (
