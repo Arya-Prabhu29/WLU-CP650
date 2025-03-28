@@ -1,0 +1,29 @@
+{
+  "greeting": "Bonjour, Bienvenue !",
+  "home": {
+    "title": "Bonjour, Bienvenue",
+    "subtitle": "Veuillez sélectionner une langue",
+    "btnMessage": "Explorez Brantford"
+  },
+  "description": {
+    "line1": "Vous regardez la chaîne YouTube <1>{{channel}}</1>",
+    "line2": "Ceci est un tutoriel d'internationalisation"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "Login": "Connexion"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "content": "Nous créons des tutoriels de programmation sur YouTube"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "email": "Email : contact@roadsidecoder.com"
+  },
+  "login": {
+    "title": "Connexion"
+  }
+}

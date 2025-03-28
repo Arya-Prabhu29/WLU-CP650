@@ -1,0 +1,29 @@
+{
+    "greeting": "Merhaba, Hoş Geldiniz!",
+    "home": {
+      "title": "Merhaba, Hoş Geldiniz",
+      "subtitle": "Lütfen bir dil seçin",
+      "btnMessage": "Brantford'u Keşfet"
+    },
+    "description": {
+      "line1": "<1>{{channel}}</1> YouTube Kanalını izliyorsunuz",
+      "line2": "Bu bir Uluslararasılaştırma Eğitimidir"
+    },
+    "navigation": {
+      "home": "Ana Sayfa",
+      "about": "Hakkında",
+      "contact": "İletişim",
+      "Login": "Giriş Yap"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "content": "YouTube'da programlama eğitimleri oluşturuyoruz"
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "email": "E-posta: contact@roadsidecoder.com"
+    },
+    "login": {
+      "title": "Giriş Yap"
+    }
+  }

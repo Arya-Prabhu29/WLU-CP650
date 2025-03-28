@@ -1,0 +1,29 @@
+{
+    "greeting": "你好，欢迎！",
+    "home": {
+      "title": "你好，欢迎",
+      "subtitle": "请选择一种语言",
+      "btnMessage": "探索布兰特福德"
+    },
+    "description": {
+      "line1": "您正在观看<1>{{channel}}</1> YouTube频道",
+      "line2": "这是一个国际化教程"
+    },
+    "navigation": {
+      "home": "首页",
+      "about": "关于",
+      "contact": "联系我们",
+      "Login": "登录"
+    },
+    "about": {
+      "title": "关于我们",
+      "content": "我们在YouTube上创建编程教程"
+    },
+    "contact": {
+      "title": "联系我们",
+      "email": "电子邮件：contact@roadsidecoder.com"
+    },
+    "login": {
+      "title": "登录"
+    }
+  }

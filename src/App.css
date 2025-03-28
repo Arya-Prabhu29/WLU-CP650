@@ -1,0 +1,166 @@
+/* Add font files for Gothic A1 */
+@font-face {
+  font-family: "Gothic A1";
+  src: url("fonts/gothic-a1.woff2") format("woff2"),
+    url("fonts/gothic-a1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* NEW STYLING */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px; /* iPhone 13 viewport width is 390px */
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 16px; /* Reduced side padding for mobile */
+  box-sizing: border-box;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* More subtle shadow for mobile */
+  border-radius: 12px; /* Slightly larger radius for modern iOS look */
+}
+
+/* Add media queries for different device sizes */
+@media only screen and (max-width: 428px) {
+  /* iPhone 13 Pro Max and similar larger phones */
+  .container {
+    max-width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 16px;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  /* iPhone 13 standard */
+  .container {
+    padding: 16px 12px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* iPhone 13 Mini and older models */
+  .container {
+    padding: 14px 10px;
+  }
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+label span {
+  color: red;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.inline-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.inline-inputs input {
+  flex: 1;
+}
+
+.inline-inputs .small {
+  max-width: 70px;
+}
+
+button {
+  width: 100%;
+  background-color: #d90d0d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b00b0b;
+}
+
+@media (max-width: 600px) {
+  .inline-inputs {
+    flex-direction: column;
+  }
+}
+
+/* Grid container */
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 10px;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Center the grid */
+}
+
+/* Grid items */
+.homepage-language-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.homepage-language-item:hover {
+  background-color: #f5f5f5;
+}
+
+.homepage-language-item img {
+  width: 50px; /* Adjust as needed */
+  height: auto;
+}

@@ -1,0 +1,38 @@
+{
+  "greeting": "Hello, Welcome!",
+  "home":{
+    "title": "Hello, Welcome",
+    "subtitle": "Please select a language",
+    "btnMessage": "Explore Brantford"
+  },
+  "description": {
+    "line1": "You're watching <1>{{channel}}</1> YouTube Channel",
+    "line2": "This is an Internationalisation Tutorial"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "Login": "Login",
+    "register": "Register",
+    "registerBusiness": "Register Business",
+    "registerEvent": "Register Event"
+  },
+  "about": {
+    "title": "About Us",
+    "content": "We create programming tutorials on YouTube"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email: contact@roadsidecoder.com"
+  },
+  "login":{
+    "title": "Login"
+  },
+"registerBusiness":{
+  "title": "Business Registration Form"
+},
+"registerEvent":{
+  "title": "Event Registration Form"
+}
+}
