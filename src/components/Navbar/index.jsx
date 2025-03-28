@@ -77,7 +77,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container container">
         {/* Logo or brand name */}
-        <a href="/" className="navbar-logo">
+        <a href="/main" className="navbar-logo">
           <img src="/images/logo.svg" />
         </a>
 
