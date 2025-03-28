@@ -10,7 +10,7 @@
 /* NEW STYLING */
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: rgba(231, 246, 255, 1);
   margin: 0;
   padding: 0;
 }
@@ -18,7 +18,6 @@ body {
 .container {
   width: 100%;
   margin: 0 auto;
-  background: #fff;
   padding: 20px 16px; /* Reduced side padding for mobile */
   box-sizing: border-box;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* More subtle shadow for mobile */
@@ -133,7 +132,7 @@ a:focus-visible {
 button,
 .button2 {
   width: 100%;
-  background-color: #d90d0d;
+  background-color: rgba(65, 104, 164, 1);
   color: white;
   padding: 12px;
   border: none;
@@ -149,20 +148,6 @@ button:hover {
 
 @media only screen and (min-width: 840px) {
   /* iPhone 13 Mini and older models */
-  a,
-  a:link,
-  a:visited,
-  a:hover,
-  a:focus,
-  a:active {
-    color: black; /* Your preferred link color */
-  }
-
-  /* Optional: Add focus styles for accessibility */
-  a:focus-visible {
-    outline: 2px solid black;
-    outline-offset: 2px;
-  }
 
   button {
     width: 25%;
@@ -182,6 +167,7 @@ button:hover {
 .basic-div {
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 /* Grid container */

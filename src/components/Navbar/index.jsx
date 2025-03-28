@@ -18,6 +18,16 @@ const navItems = [
     icon: <FaHome />,
   },
   {
+    title: "Register Business",
+    link: "/register-business",
+    icon: <IoIosHelpCircle />,
+  },
+  {
+    title: "Register Event",
+    link: "/register-event",
+    icon: <IoIosHelpCircle />,
+  },
+  {
     title: "Profile",
     link: "main",
     icon: <CgProfile />,
@@ -47,6 +57,7 @@ const navItems = [
     link: "main",
     icon: <IoIosHelpCircle />,
   },
+
   // {
   //   title: "Log Out",
   //   link: "home",
