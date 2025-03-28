@@ -17,7 +17,6 @@ body {
 
 .container {
   width: 100%;
-  max-width: 720px; /* iPhone 13 viewport width is 390px */
   margin: 0 auto;
   background: #fff;
   padding: 20px 16px; /* Reduced side padding for mobile */
@@ -111,6 +110,26 @@ textarea {
   max-width: 70px;
 }
 
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: white; /* Your preferred link color */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Show pointer cursor */
+  background-color: transparent; /* No background changes */
+  outline: none; /* Remove focus outline (replace with accessible alternative) */
+  /* Add any other consistent styles you want */
+}
+
+/* Optional: Add focus styles for accessibility */
+a:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
 button {
   width: 100%;
   background-color: #d90d0d;
@@ -131,6 +150,11 @@ button:hover {
   .inline-inputs {
     flex-direction: column;
   }
+}
+
+.basic-div {
+  text-align: center;
+  justify-content: center;
 }
 
 /* Grid container */
@@ -163,7 +187,4 @@ button:hover {
 .homepage-language-item img {
   width: 50px; /* Adjust as needed */
   height: auto;
-}
-
-.yipee {
 }

@@ -21,7 +21,7 @@ const Home = ({ home }) => {
     i18n.changeLanguage(lng);
   };
   return (
-    <>
+    <div className="basic-div">
       <h1>{home.title}</h1>
       <h3>{home.subtitle}</h3>
       <div className="languages-grid">
@@ -39,9 +39,11 @@ const Home = ({ home }) => {
             </span>
           </div>
         ))}
-        <button>{home.btnMessage} &#8594;</button>
       </div>
-    </>
+      <button style={{ marginTop: "5px" }}>
+        <a href="/main">{home.btnMessage} &#8594;</a>
+      </button>
+    </div>
   );
 };
 
