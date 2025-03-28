@@ -130,7 +130,8 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
-button {
+button,
+.button2 {
   width: 100%;
   background-color: #d90d0d;
   color: white;
@@ -144,6 +145,32 @@ button {
 
 button:hover {
   background-color: #b00b0b;
+}
+
+@media only screen and (min-width: 840px) {
+  /* iPhone 13 Mini and older models */
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:focus,
+  a:active {
+    color: black; /* Your preferred link color */
+  }
+
+  /* Optional: Add focus styles for accessibility */
+  a:focus-visible {
+    outline: 2px solid black;
+    outline-offset: 2px;
+  }
+
+  button {
+    width: 25%;
+  }
+
+  .button2 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {

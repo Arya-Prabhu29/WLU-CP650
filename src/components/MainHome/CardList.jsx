@@ -95,7 +95,7 @@ const FilterableCardList = () => {
           />
         </div>
         <div>
-          <button className="submit-button">
+          <button className="button2">
             Advanced Search <FaSearch />
           </button>
         </div>
