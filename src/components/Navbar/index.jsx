@@ -19,39 +19,39 @@ const navItems = [
   },
   {
     title: "Profile",
-    link: "Home",
+    link: "main",
     icon: <CgProfile />,
   },
   {
     title: "Language",
-    link: "home",
+    link: "main",
     icon: <FaLanguage />,
   },
   {
     title: "Notifications",
-    link: "home",
+    link: "main",
     icon: <IoIosNotifications />,
   },
   {
     title: "Bookmarks",
-    link: "home",
+    link: "main",
     icon: <FaBookmark />,
   },
   {
     title: "Settings",
-    link: "home",
+    link: "main",
     icon: <IoMdSettings />,
   },
   {
     title: "Help",
-    link: "home",
+    link: "main",
     icon: <IoIosHelpCircle />,
   },
-  {
-    title: "Log Out",
-    link: "home",
-    icon: <IoMdLogOut />,
-  },
+  // {
+  //   title: "Log Out",
+  //   link: "home",
+  //   icon: <IoMdLogOut />,
+  // },
 ];
 
 const Navbar = () => {
